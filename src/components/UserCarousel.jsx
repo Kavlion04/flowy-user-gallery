@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import { ChevronLeft, ChevronRight } from 'lucide-react'; // Icons for navigation
 
-// Updated data for carousel items with famous programmers
+// Updated data for carousel items with famous programmers using Unsplash images
 const carouselItems = [
-  { id: 1, title: "Ada Lovelace", description: "The first computer programmer.", imageUrl: "https://via.placeholder.com/600x400/A78BFA/FFFFFF?text=Ada+Lovelace" },
-  { id: 2, title: "Alan Turing", description: "Father of theoretical computer science and AI.", imageUrl: "https://via.placeholder.com/600x400/C4B5FD/1F2937?text=Alan+Turing" },
-  { id: 3, title: "Grace Hopper", description: "Pioneering computer scientist and Navy admiral.", imageUrl: "https://via.placeholder.com/600x400/8B5CF6/FFFFFF?text=Grace+Hopper" },
-  { id: 4, title: "Linus Torvalds", description: "Creator of Linux and Git.", imageUrl: "https://via.placeholder.com/600x400/DDD6FE/1F2937?text=Linus+Torvalds" },
+  { id: 1, title: "Ada Lovelace", description: "The first computer programmer.", imageUrl: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&h=400&fit=crop" },
+  { id: 2, title: "Alan Turing", description: "Father of theoretical computer science and AI.", imageUrl: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&h=400&fit=crop" },
+  { id: 3, title: "Grace Hopper", description: "Pioneering computer scientist and Navy admiral.", imageUrl: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&h=400&fit=crop" },
+  { id: 4, title: "Linus Torvalds", description: "Creator of Linux and Git.", imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=600&h=400&fit=crop" },
 ];
 
 const UserCarousel = () => {
